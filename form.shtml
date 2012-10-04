@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+	<!-- Description: Sample HTML Document -->
+	<!-- Author: My Name -->
+	<!-- Date: Aug 1 2008 -->
+	<!-- Validated: OK August 1 2008 -->
+<head>
+	<title>Form Page</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Chao ZHAO(Ryan)" />
+	<meta name="description" content="This is for assignment of Swinburne University of Technology" />
+	<meta name="keywords" content="Wikipedia, Swinburne, Assignment, HIT1307" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<script type="text/javascript" > 
+
+	function checkform() 
+	{
+		if ( document.forms['testform'].firstname.value == "" || documents.forms['testform'].firstname.value == NULL)
+		{
+		   alert('Please input the firstname');
+		   return false;
+		}
+		else
+		{
+			return true;
+		}
+		
+	}		
+	function test()
+		{
+			alert(document.getElementById['firstname'].value);
+			document.getElementById['firstn'].value = document.getElementById['firstname'].value;
+		}
+
+		function changetext() {
+                var oDiv = document.getElementById['testp']);
+                oDiv.innerHTML = "<b>Hello</b> world";
+            }
+
+</script>
+</head>
+<body>    
+<div id="banner">
+	<p><img height="300" width="860" src="images/travel-outdoors.jpg" alt="alt" title="this is title" /></p> 
+	<p>Let's go to travle</p>
+</div>
+<div id="menu" >
+    <ul>
+    	<li><a href="index.shtml" name="top">Home</a></li>
+        <li><a href="showoff.shtml">Show Off</a></li>
+		<li><a href="report.shtml">Report</a></li>
+		<li><a href="form.shtml">Form</a></li>
+		<li><a href="about.shtml">About</a></li>
+    </ul>
+</div>
+	<div id="main">
+	<h1><a id="main_heading">Form Page</a></h1>
+	<div class="form_layout">
+		<form id="testform" onsubmit = "return checkform()" method="post" action="http://dev.ict.swin.edu.au/hit1307/demos/showpost.php">
+        <p id="testp" >Please fill this <a id="form">form</a> and sumbit your request this to us.</p>
+		<fieldset>
+		<legend >Personal Information</legend>
+            <p><label for="title">Title: </label>
+				<select name="title" id="title">
+				<option value="Mr" selected ="selected">Mr.</option>
+				<option value="Mrs">Mrs. </option>
+				<option value="Miss">Miss.</option>
+				<option value="Ms">Ms.</option>
+				<option value="Dr">Dr.</option>
+				</select>
+            </p>
+			<p>
+        	<label id="firstn" for="firstname">First name: </label>
+            <input type="text" name="firstname" id="firstname" value="test"/>
+            </p>
+			<p>
+        	<label for="lastname">Last name: </label> 
+            <input type="text" name="lastname" id="lastname"/>
+			</p>
+			<p>
+        	<label for="email">E-mail: </label>
+            <input type="text" name="email" id="email"/>
+			</p>
+			<p>
+        	<label >Gender: </label>
+			<input type="radio" name="usersex" value="M" /> Male
+			<input type="radio" name="usersex" value="F" /> Fmale
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend >Travel Information Collection</legend>
+				<p>	
+					<label for="place">Your favourite place </label>
+					<select name="place" id="place">
+					<option value="paris" selected ="selected">Paris</option>
+					<option value="newYork">New York</option>
+					<option value="beijing">Beijing</option>
+					<option value="egypt">Egypt</option>
+					<option value="milan">Milan</option>
+					</select>
+				</p>
+				<p>	
+					<label for="plane">Prefer Airplane </label>
+					<select name="plane" id="plane">
+					<option value="quantas" selected ="selected">Quantas</option>
+					<option value="jetstart">Jetstar</option>
+					<option value="airchina">Air China </option>
+					<option value="tiger">Tiger</option>
+					</select>
+				</p>
+			<p><label for="peopleno">Number of People</label>
+			<input type="text" name="peopleno" id="peopelno"/>
+            </p>
+			<p><input onclick="CheckEmpty()" type="checkbox" name="carhire" value="carhire" /> Car hire</p>
+		</fieldset>
+		<input type="radio" name="debug" value="true"/> True
+		<input value="test button" type="button" onclick="changetext()"/>
+		<div id="button">
+		<p><input type="submit" value="Send Info"/> <input type="reset" value="Reset"/></p>
+		</div>
+		</form>
+	</div>
+	<p id="top_page"><a href="#top">go to top</a></p>
+    <hr />
+	</div>
+	<div id="footer">
+	<ul>
+		<li>by Chao ZHAO(Ryan)</li>
+		<li>ID: 6555985</li>
+	    <li>E-mail:6555985@student.swin.edu.au</li>
+        <li><a href="about.html">about page</a></li>
+    </ul>
+    <ul>
+    	<li><a href="http://validator.w3.org/check/referer" title="Check the validity of this site's XHTML">
+        <acronym title="The Extensible HyperText Markup Language">XHTML</acronym></a></li>
+        <li><a href="http://jigsaw.w3.org/css-validator/check/referer" title="Check the validity of this site's CSS">
+		<acronym title="Cascading Style Sheets">CSS</acronym></a></li>
+        <li>last modifed: Wed, 31-03-2010 4:28 PM</li>
+        <li>CopyRight 2010</li>
+    </ul>
+    </div>
+</body>
+</html>
+
+

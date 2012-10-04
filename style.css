@@ -1,0 +1,149 @@
+/*			body section			*/
+body{
+	//background-image:url(style/white.jpg);
+	height:100%;
+	//background-attachment: fixed;
+    background-color: #ADD8E6;
+	text-align: center;
+	}
+#banner {
+	
+}
+/*			menu section			*/
+ #menu ul li:hover {
+	background-color:#49E20E;
+	}
+#menu ul{
+	list-style:none outside;
+	margin-top:6px;
+	overflow:hidden;
+	padding:20px;
+	width:100%;
+	}
+#menu ul li{
+	font-size:20px;
+	border-left:1px solid #B0B0B0;
+	border-right:1px solid #B0B0B0;
+	color:#333333;
+	float:left;
+	height:1em;
+	line-height:1em;
+	margin:0;
+	padding:10px; 
+	}
+.current_page{
+	/*make the font large*/
+	}
+/*			the container			*/
+#main {
+	text-align:left; 
+	margin-bottom: 36px;
+	width:70%;
+	height:100%;
+	position:relative;
+	margin-right: auto; 
+	margin-left: auto;
+	border:0px solid black;
+	}
+/*			heading and paragraph			*/
+h1{
+	text-align:center;
+	}
+h2{
+	
+	}
+h2,h3{
+	text-align:left;
+	}
+p {
+	text-align:justify;
+	}
+/*				image				*/
+
+/*				paragraph				*/
+.style_p{
+	display:block;
+	margin:10px;
+	padding:5px;
+	border-right:0px solid #136;
+	border-left:0px solid #136;
+	}
+.notice{
+	text-decoration:underline;
+	font-size:18px;
+	}
+/*				table					*/
+#data {
+	border-spacing: 2px;
+	border-collapse: separate;
+	text-align:center;
+	border:1px outset #808080;
+	}
+#data th {
+	border: 1px inset #808080;
+	padding: 1px;
+	}
+#data td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: #808080;
+}
+/*				target				*/	
+div.classformlayout p {display: none}
+div.classformlayout p:target {display: block}
+/* 				go to top			*/
+#top_page{
+	margin: 20px;
+	text-align:right;
+	}	
+/*				footer				*/
+#footer{
+	background-color:#EEEEEE
+	}
+#footer ul {
+	list-style:none outside none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+	width:100%;
+	}
+#footer ul li{
+	border-right:1px solid #B0B0B0;
+	color:#333333;
+	float:left;
+	font-size:0.9em;
+	height:1em;
+	line-height:1em;
+	margin:0;
+	padding:3px 4px 3px 4px;
+	}
+/*			form layout			*/
+.form_layout
+    {
+        background-color: #f3f3f3;
+        border: solid 1px #a1a1a1;
+        padding: 10px;
+        width: 500px;
+		margin-right:auto;
+		margin-left:auto;		
+    }
+.form_layout label
+	{
+	display: block;  
+	float: left; 
+	width: 150px; 
+	margin: 5px 0 0; 
+	text-align: right; 
+	padding-right: 20px;
+	}
+.form_layout input
+	{
+	text-align:left;
+	padding: 0; 
+	margin: 5px 0 0; 
+	}
+#button
+	{
+	text-align:center;
+	}

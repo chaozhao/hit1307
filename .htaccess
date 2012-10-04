@@ -1,0 +1,7 @@
+require user s6555985
+require group cn=cso,ou=Group,ou=csg,dc=ict,dc=swin,dc=edu,dc=au
+require group cn=hit1307_2010s1_convenor,ou=Group,ou=csg,dc=ict,dc=swin,dc=edu,dc=au
+require group cn=hit1307_2010s1_tutor,ou=Group,ou=csg,dc=ict,dc=swin,dc=edu,dc=au
+
+Options +Indexes
+

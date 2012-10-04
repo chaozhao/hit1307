@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+	<!-- Description: Sample HTML Document -->
+	<!-- Author: My Name -->
+	<!-- Date: Aug 1 2008 -->
+	<!-- Validated: OK August 1 2008 -->
+<head>
+	<title>Showoff Page</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Chao ZHAO(Ryan)" />
+	<meta name="description" content="This page is for assignment of Swinburne University of Technology" />
+	<meta name="keywords" content="Wikipedia, Swinburne, Assignment, HIT1307" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+<div id="banner">
+	<p><img height="300" width="860" src="images/travel-outdoors.jpg" alt="alt" title="this is title" /></p> 
+	<p>Let's go to travle</p>
+	</div>
+    <div id="menu" >
+    <ul>
+    	<li><a href="index.shtml" name="top">Home</a></li>
+        <li><a href="showoff.shtml">Show Off</a></li>
+		<li><a href="report.shtml">Report</a></li>
+		<li><a href="form.shtml">Form</a></li>
+		<li><a href="about.shtml">About</a></li>
+    </ul>
+	</div>
+	<div id="main">
+	<h1>Showoff Page</h1>
+    <div class="style_p">
+    <h2>subtitle</h2>
+	<table id="data" align="center">
+	<tr>
+		<caption>The year of wiki's website founded</caption>
+		<th scope="col">Name</th>
+		<th scope="col">Field</th>
+		<th scope="col">Founded Year</th>
+	</tr>
+	<tr>
+		<td>Wikispace</td>
+		<td>Blog</td>
+		<td>2005</td>
+	</tr>
+	<tr>
+		<td>Wikipedia</td>
+		<td>Knowledge</td>
+		<td>2001</td>
+	</tr>
+	</table> 	
+  	</div>
+
+	<p id="top_page"><a href="#top">go to top</a></p>
+    <hr />
+	</div>
+	<div id="footer">
+	<ul>
+		<li>by Chao ZHAO(Ryan)</li>
+		<li>ID: 6555985</li>
+	    <li>E-mail:6555985@student.swin.edu.au</li>
+        <li><a href="about.html">about page</a></li>
+    </ul>
+    <ul>
+    	<li><a href="http://validator.w3.org/check/referer" title="Check the validity of this site’s XHTML">XHTML</a></li>
+        <li><a href="http://jigsaw.w3.org/css-validator/check/referer" title="Check the validity of this site’s CSS">CSS</a></li>
+        <li>last modifed: Wed, 31-03-2010 4:28 PM</li>
+        <li>CopyRight 2010</li>
+    </ul>
+    </div>
+</body>
+</html>
